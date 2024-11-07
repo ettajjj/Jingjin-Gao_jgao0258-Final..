@@ -36,7 +36,7 @@ In my project, I focused on adjusting the **scale** of animations rather than ch
 
 1. **Background and Visual Enhancements**  
    A light background was set to improve contrast, making the animation stand out more effectively. The colors, transparency, and positioning of the circles and lines were adjusted to create a more natural and cohesive visual appearance.
-   
+
    **Before-and-after map**
 ![an image of 1](/ReadImage/1.png)
 ![an image of 2](/ReadImage/2.png)
@@ -44,6 +44,11 @@ In my project, I focused on adjusting the **scale** of animations rather than ch
 
 2. **Scaling and Centering Adjustments**  
    During scaling, the apple tree did not consistently remain centered on the screen, and the scaling factor caused distortion and misalignment on different window sizes. To address this, a `scaleFactor` function was added, along with adjustments to `offsetX` and `offsetY`, to ensure the tree remains centered as it scales. This allows the apple tree to maintain proper proportions and positioning even when the window size changes.
+
+![an image of 3](/ReadImage/3.png)
+![an image of 4](/ReadImage/4.png)
+![an image of 5](/ReadImage/5.png)
+
 
 3. **Preventing Multiple Animations**  
    To prevent multiple growth animations from being triggered if the “Start Growth” button is clicked multiple times—causing the animation speed to increase and clutter the visuals—a check function was added. This ensures that only one growth animation is running at a time, avoiding interference from overlapping animations.
