@@ -36,6 +36,7 @@ In my project, I focused on adjusting the **scale** of animations rather than ch
 
 1. **Background and Visual Enhancements**  
    A light background was set to improve contrast, making the animation stand out more effectively. The colors, transparency, and positioning of the circles and lines were adjusted to create a more natural and cohesive visual appearance.
+   
    **Before-and-after map**
 ![an image of 1](/ReadImage/1.png)
 ![an image of 2](/ReadImage/2.png)
