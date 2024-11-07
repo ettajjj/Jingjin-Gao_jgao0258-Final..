@@ -1,13 +1,13 @@
 # Jingjin-Gao_jgao0258-Final..
 
 
-### Project Overview
+## Project Overview
 
 This project uses the p5.js library, combined with course content and additional resources, to create animations of an apple tree growing and a rain effect. Users can control the animations with interactive buttons, and the responsive canvas feature ensures a flexible and immersive experience.
 
 --- 
 
-### Interaction Guide
+## Interaction Guide
 
 - **Start Growth Animation**: Click the “Start Growth” button to start the tree growth animation, where the tree structure gradually enlarges.
 - **Rain Animation**: Click the “Start Rain” button to start the rain effect, and click the “Pause Rain” button to pause the raindrops. Raindrops fall from the top and disappear at the bottom.
@@ -15,7 +15,7 @@ This project uses the p5.js library, combined with course content and additional
 
 ---
 
-### Animation Driving Mechanism and Differentiation
+## Animation Driving Mechanism and Differentiation
 
 In my design, I selected a **Time-Based** approach as the primary method to drive animations, using time to control both the tree growth and raindrop movement to complete the final project. The time factor allows the tree growth animation to expand smoothly, while the raindrops fall at a fixed speed, creating the visual effect of continuous rainfall.
 
@@ -23,7 +23,7 @@ In my project, I focused on adjusting the **scale** of animations rather than ch
 
 ---
 
-### Image Properties and Animation Details
+## Image Properties and Animation Details
 
 - **Growth Animation**: Each time the `startGrowth` function is called, the `shrinkFactor` variable gradually increases, allowing the tree elements to grow from a smaller scale to their full size, simulating natural growth.
 - **Raindrop Animation**: Raindrops are generated periodically and move downwards using the `move` function. Once they reach the bottom of the screen, they are removed from the array to keep the visuals clear.
@@ -55,7 +55,7 @@ In my project, I focused on adjusting the **scale** of animations rather than ch
 
    ---
 
-### Inspiration and Technical Overview
+## Inspiration and Technical Overview
 
 The project is inspired by the natural beauty of tree growth and rainfall, combining static shapes (like circles and lines) with animation effects to bring dynamic life to the composition.  
 - **Implementation**: `setInterval` controls timing, animating the growth through element scaling, while raindrops fall by updating their y-position within `drawElements`.
@@ -68,7 +68,7 @@ This project utilizes the p5.js library and content provided in class. Additiona
 
 --- 
 
-### Resources
+## Resources
 
 - [Growth Animation Tutorial](https://youtu.be/lMJmtlp6Yus)
 - [Rain Effect Tutorial](https://www.youtube.com/watch?v=KkyIDI6rQJI)
